@@ -1,0 +1,36 @@
+@media (max-width: 1441px){
+    .container .card1 .rating ul ui:not(:last-child){
+        margin-right: 10px;
+    }
+    .container .card1 .rating ul ui{
+        padding: 13.5px 14px;
+    }
+    .container .card1 .rating ul ui:first-child{
+        margin-left: 0px;
+    }
+    .container .card1 .rating .button{
+        padding: 12px 90px;
+        margin-left: 0px;
+    }
+    .container .card1 .rating ul{
+        margin-top: 15px;
+       }
+       .container .card2 img{
+        margin-left: 17%;
+       }
+       .container .card2 .ratingshow{
+        margin-left: 0px;
+       }
+}
+@media (max-width: 375px){
+.container{
+    width: 80%;
+    }
+    .container .card1 .rating ul ui:not(:last-child){
+        margin-right: 9px;
+    }
+    .container .card1 .rating .button{
+        padding: 12px 76px;
+    }
+
+}
